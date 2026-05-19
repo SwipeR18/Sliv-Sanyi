@@ -1,0 +1,114 @@
+body{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h1{
+    color: red;
+}
+
+.avatar {
+    width: 400px;
+    border-radius: 2%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+
+}
+
+.glav {
+    text-decoration: underline;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    gap: 20px;
+    margin-bottom: 15px;
+    height: auto;
+    font-style: oblique;
+}
+
+.price {
+    color: rgb(48, 113, 30);
+    font-weight: bold;
+}
+
+.conteiner {
+    max-width: 75%;
+    margin: auto;
+}
+
+.baton {
+    padding: 0px 40px;
+    line-height: 1.5;
+}
+
+.parg-text {
+    margin: 0;
+    font-size: ;
+}
+
+.bg-red{
+    background: #ffe5e5; 
+}
+
+.bg-yellow{
+    background: #fff9dc; 
+}
+
+.bg-green{
+    background: #e5ffe7; 
+}
+
+.bg-grei{
+    background: rgb(157, 217, 255); 
+}
+
+.bg-ot{
+    background: rgb(169, 255, 209); 
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.table {
+    width: 100%;
+}
+
+.form-grup label{
+    display: block; 
+}
+
+.form-grup input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+}
+
+.form-grup textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+}
+
+
+@media (max-width: 768px) {
+    .info {
+        flex-direction: column; /* Выстраивает элементы вертикально (друг под другом) */
+        align-items: center;    /* Выравнивает фото и текст по центру экрана */
+        text-align: center;     /* Делает текст по центру (по желанию) */
+    }
+
+    .avatar {
+        width: 100%;            /* Фото растянется на всю доступную ширину */
+        max-width: 300px;       /* Но не станет больше 300px, чтобы не мылиться */
+    }
+}
