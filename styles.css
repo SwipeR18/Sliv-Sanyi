@@ -1,6 +1,4 @@
 body{
-    background-color: rgb(234, 229, 222);
-
     font-size: 16px;
     font-weight: normal;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -50,6 +48,52 @@ h1{
     margin: 0;
     font-size: ;
 }
+
+.bg-red{
+    background: #ffe5e5; 
+}
+
+.bg-yellow{
+    background: #fff9dc; 
+}
+
+.bg-green{
+    background: #e5ffe7; 
+}
+
+.bg-grei{
+    background: rgb(157, 217, 255); 
+}
+
+.bg-ot{
+    background: rgb(169, 255, 209); 
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.table {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
